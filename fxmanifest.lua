@@ -6,12 +6,10 @@ description 'BSRP FreeRoam - Tow Script'
 version '1.0.0'
 
 client_scripts {
-    'client/main.lua'
+    'main.lua'
 }
 
-server_scripts {
-    'server/main.lua'
-}
+
 
 dependencies {
     'qb-core',
